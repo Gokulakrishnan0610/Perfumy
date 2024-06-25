@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+li,h1{
+    display: inline;
+}
+
+ul{
+    margin-left: 60%;
+    display: inline;
+}
+
+li {
+    color: grey;
+    text-decoration: none;
+}
+
+li:hover{
+    color: white;
+}
+
+input{
+    width: 70%;
+    padding: 10px;
+}
+
+.searchbar {
+    text-align: center;
+    padding: 30px;
+}
+
+.image__container{
+    border: solid black 2px;
+    text-align: center;
+    width: 220px;
+    display: inline-block;
+}
+
+img{
+    width: 220px;
+}
+
+.image__container:hover{
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.images{
+    text-align: center;
+    padding: 30px;
+}
+
+.about{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about p{
+    padding: 20px;
+    font-size: larger;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.contact h3{
+    margin-bottom: 10px;
+}
